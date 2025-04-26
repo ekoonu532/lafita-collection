@@ -5,7 +5,7 @@ import { FaQuoteLeft, FaStar } from 'react-icons/fa';
 const testimonialsData = [
   {
     id: 1,
-    name: 'Anisa Wijaya',
+    name: 'Dewi Andriani',
     role: 'Perencana Acara',
     image: '/api/placeholder/100/100',
     rating: 5,
@@ -13,7 +13,7 @@ const testimonialsData = [
   },
   {
     id: 2,
-    name: 'Budi Santoso',
+    name: 'Rahma Amelia',
     role: 'Profesional Bisnis',
     image: '/api/placeholder/100/100',
     rating: 5,
@@ -21,7 +21,7 @@ const testimonialsData = [
   },
   {
     id: 3,
-    name: 'Maya Indira',
+    name: 'Siti Nurbani',
     role: 'Guru',
     image: '/api/placeholder/100/100',
     rating: 5,
@@ -29,7 +29,7 @@ const testimonialsData = [
   },
   {
     id: 4,
-    name: 'Dian Kusuma',
+    name: 'Eti Suketi',
     role: 'Kreator Konten',
     image: '/api/placeholder/100/100',
     rating: 4,
