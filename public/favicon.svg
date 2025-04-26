@@ -1,0 +1,23 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Lingkaran latar belakang gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#800020" />
+      <stop offset="50%" stop-color="#9C2A4E" />
+      <stop offset="100%" stop-color="#FF69B4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Latar belakang bulat dengan shadow -->
+  <circle cx="50" cy="50" r="48" fill="url(#bg-gradient)" stroke="#fff" stroke-width="1" />
+  
+  <!-- Huruf "L" untuk Lafita -->
+  <text x="50" y="67" font-family="'Playfair Display', serif" font-size="55" font-weight="700" text-anchor="middle" fill="white" letter-spacing="-1">L</text>
+  
+  <!-- Elemen dekoratif - jarum dan benang -->
+  <g transform="translate(50, 50) scale(0.5) rotate(30) translate(-50, -50)">
+    <line x1="45" y1="50" x2="80" y2="20" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+    <circle cx="80" cy="20" r="2" fill="white" />
+    <path d="M45,50 C60,45 70,40 75,30" stroke="white" stroke-width="1" fill="none" stroke-dasharray="3,2" />
+  </g>
+</svg>
